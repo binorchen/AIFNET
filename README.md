@@ -7,7 +7,7 @@ Official Tensorflow implementation of the paper AIFNet. Our network takes defocu
 
 <img src="teaser/plant.gif" width="400px"/> <img src="teaser/corridor.gif" width="400px"/>
 
-
+## Only testing now, training coming soon...
 
 ## Environment
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-16.04-blue.svg?style=plastic)
@@ -41,7 +41,8 @@ To test with your own blurry images into a folder and run for example:
 python test.py -d [name of your test set] -r [rows] -c [columns] -gt [1: have ground truth; 0: no ground truth] -p [path to your testing image] -gtp [path to your ground truth image if you have]
 ```
 
-Please note spatial resolution of image sourced from DPD dataset has been reduced when tested on AIFNet since it has limitation dealing with very high-resolution defocused image.
+Please note that the spatial resolution of image sourced from DPD dataset has been reduced when tested on AIFNet since it has limitation dealing with very high-resolution defocused image.
+
 
 
 ## Relevant datasets
